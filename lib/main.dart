@@ -1,3 +1,4 @@
+import 'package:ecommerce/constraints.dart';
 import 'package:flutter/material.dart';
 import 'screens/home_screen.dart';
 
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
         fontFamily: "Gordian",
+        scaffoldBackgroundColor: bgColor,
         textTheme: const TextTheme(
           bodyMedium: TextStyle(color: Colors.black54),
         ),
